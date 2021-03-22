@@ -44,15 +44,14 @@ img {
   --our-backgraund-color: #f5f4fa;
   --portfolio-background-color: #e5e5e5;
   --card-set-gap: 30px;
-  --card-shadow-hover: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  --card-shadow:
-    0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+  --card-shadow-hover: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --card-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
 }
 
 .body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: var(--background-color);
   margin: 0px;
   line-height: 1.5;
@@ -357,8 +356,6 @@ h3 {
   flex-wrap: wrap;
   width: 1200px;
   padding-bottom: 94px;
-
-}
 }
 
 .our-team .team + .team + .team {
@@ -373,7 +370,8 @@ h3 {
   background-color: var(--white-color-text);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
@@ -420,8 +418,8 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
- padding-top: 20px;
- margin-bottom: 0px;
+  padding-top: 20px;
+  margin-bottom: 0px;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -436,11 +434,10 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
-padding-top: 9px;
+  padding-top: 9px;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-
 }
 
 /*portfolio html*/
@@ -506,9 +503,9 @@ padding-top: 9px;
 
 /*навигация*/
 .conteiner-portfolio {
-padding-bottom: 94px;
-    padding-top: 94px;
-  }
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 .filters {
   display: flex;
@@ -533,7 +530,6 @@ padding-bottom: 94px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  
 }
 
 .filter-button {
@@ -588,18 +584,18 @@ padding-bottom: 94px;
   overflow: hidden;
 }
 .card:hover,
-.card:focus{
+.card:focus {
   box-shadow: var(--card-shadow-hover);
 }
 .card-content {
-  padding: 20px 24px ;
+  padding: 20px 24px;
 }
 
 .card-text {
   margin-top: 4px;
   margin-bottom: 0px;
 }
-.card-main{
+.card-main {
   margin: 0px;
 }
 .project-titles {
