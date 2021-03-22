@@ -76,6 +76,17 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
 /* CONTAINER */
 .containers-portfolio {
   width: 1200px;
@@ -271,7 +282,6 @@ header {
   letter-spacing: 0.03em;
 
   color: var(--title-color);
-  padding-bottom: 94px;
 }
 
 .section-about-us-title {
@@ -290,24 +300,51 @@ header {
 }
 
 .feature1 {
-  height: 101px;
+  height: 251px;
   width: 270px;
   align-items: center;
+}
+
+.feature-icon1::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-image: url(../images/svg/Group\ 1.svg);
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.feature-icon2::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-image: url(../images/svg/Group\ 2.svg);
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.feature-icon3::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-image: url(..//images/svg/Group\ 3.svg);
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.feature-icon4::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-image: url(..//images/svg/Group\ 4.svg);
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 30px;
 }
 
 /*what-we-do*/
 
 .what-we-do {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-color);
-
   padding-bottom: 50px;
 }
 
