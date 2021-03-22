@@ -305,43 +305,27 @@ header {
   align-items: center;
 }
 
-.feature-icon1::before {
+.feature-icon::before {
   display: block;
   content: "";
   height: 120px;
-  background-image: url(../images/svg/Group\ 1.svg);
-  background-size: contain;
-  background-position: center;
-  margin-bottom: 30px;
-}
-.feature-icon2::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-image: url(../images/svg/Group\ 2.svg);
-  background-size: contain;
-  background-position: center;
-  margin-bottom: 30px;
-}
-.feature-icon3::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-image: url(..//images/svg/Group\ 3.svg);
-  background-size: contain;
-  background-position: center;
-  margin-bottom: 30px;
-}
-.feature-icon4::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-image: url(..//images/svg/Group\ 4.svg);
-  background-size: contain;
-  background-position: center;
-  margin-bottom: 30px;
-}
 
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.feature-icon:nth-child(1):before {
+  background-image: url(../images/svg/Group\ 1.svg);
+}
+.feature-icon:nth-child(2):before {
+  background-image: url(../images/svg/Group\ 2.svg);
+}
+.feature-icon:nth-child(3):before {
+  background-image: url(../images/svg/Group\ 3.svg);
+}
+.feature-icon:nth-child(4):before {
+  background-image: url(../images/svg/Group\ 4.svg);
+}
 /*what-we-do*/
 
 .what-we-do {
