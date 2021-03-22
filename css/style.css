@@ -195,6 +195,7 @@ header {
   background-color: var(--bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(/images/bg-image.jpeg);
 }
 
 .hero-title {
