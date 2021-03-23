@@ -409,8 +409,45 @@ h3 {
 .position {
   padding-top: 94px;
   padding-bottom: 50px;
+  margin: 0;
 }
-
+.client-icon {
+  width: 1200px;
+}
+.icon-clients {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-right: 30px;
+  background-image: url(..//images/svg/logo\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+}
+.icon-clien {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-right: 30px;
+  background-image: url(..//images/svg/logo\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+}
+/*
+.icon-client {
+  height: 90px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/svg/logo\ 1.svg);
+}*/
 /*footer*/
 footer {
   background-color: var(--bg-color);
