@@ -168,17 +168,20 @@ header {
 .saite-nav1:focus {
   color: var(--hover-color);
 }
-
+/*icon header*/
+.icon-mail:hover {
+  fill: #2196f3;
+  cursor: pointer;
+}
 .icon-mail {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .icon-phone {
   margin-left: 50px;
   margin-right: 10px;
 }
-
-.icon-mail {
-  margin-right: 10px;
+.icon-phone:hover {
+  cursor: pointer;
 }
 .contacts {
   display: flex;
@@ -315,7 +318,7 @@ header {
   width: 270px;
   align-items: center;
 }
-
+/*icon center*/
 .feature-icon::before {
   display: block;
   content: "";
@@ -587,6 +590,21 @@ footer {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+.social-link {
+  margin-left: 516px;
+  display: block;
+}
+.come-on {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color-text);
 }
 
 /*portfolio html*/
