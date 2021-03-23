@@ -169,23 +169,16 @@ header {
   color: var(--hover-color);
 }
 
-.icon-mail::before {
-  display: inline-block;
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-  content: “”;
-  background-image: url(..//images/svg/mail.svg);
-  background-size: contain;
+.icon-mail {
+  margin-left: 10px;
 }
-.icon-phone::before {
-  display: inline-block;
+.icon-phone {
+  margin-left: 50px;
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
-  content: “”;
-  background-image: url(..//images/svg/phone.svg);
-  background-size: contain;
+}
+
+.icon-mail {
+  margin-right: 10px;
 }
 .contacts {
   display: flex;
