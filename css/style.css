@@ -415,7 +415,7 @@ h3 {
   width: 1200px;
 }
 .icon-clients {
-  display: flex;
+  display: inline-block;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -428,7 +428,7 @@ h3 {
   margin-bottom: 94px;
 }
 .icon-clien {
-  display: flex;
+  display: inline-block;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
