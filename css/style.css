@@ -169,6 +169,21 @@ header {
   color: var(--hover-color);
 }
 /*icon header*/
+.iconss {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-mail {
+  width: 1.3330078125em;
+}
+
+.icon-phone {
+  width: 0.625em;
+}
 .icon-mail:hover {
   fill: #2196f3;
   cursor: pointer;
