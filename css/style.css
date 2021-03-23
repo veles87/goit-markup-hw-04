@@ -440,6 +440,19 @@ h3 {
   background-position: center;
   margin-bottom: 94px;
 }
+.icon-client {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-right: 30px;
+  background-image: url(..//images/svg/logo\ 3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+}
 /*
 .icon-client {
   height: 90px;
