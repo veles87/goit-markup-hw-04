@@ -169,6 +169,24 @@ header {
   color: var(--hover-color);
 }
 
+.icon-mail::before {
+  display: inline-block;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  content: “”;
+  background-image: url(..//images/svg/mail.svg);
+  background-size: contain;
+}
+.icon-phone::before {
+  display: inline-block;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  content: “”;
+  background-image: url(..//images/svg/phone.svg);
+  background-size: contain;
+}
 .contacts {
   display: flex;
   margin-left: auto;
@@ -411,47 +429,100 @@ h3 {
   padding-bottom: 50px;
   margin: 0;
 }
+
 .client-icon {
   width: 1200px;
 }
-.icon-clients {
+.icon-client1 {
   display: inline-block;
-  width: 170px;
+  width: 160px;
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: content-box;
   border-radius: 4px;
   margin-right: 30px;
+
   background-image: url(..//images/svg/logo\ 1.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 94px;
+  padding: 0;
+  cursor: pointer;
 }
-.icon-clien {
+.icon-client2 {
   display: inline-block;
-  width: 170px;
+  width: 160px;
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: content-box;
   border-radius: 4px;
   margin-right: 30px;
+
   background-image: url(..//images/svg/logo\ 2.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 94px;
+  padding: 0;
+  cursor: pointer;
 }
-.icon-client {
+.icon-client3 {
   display: inline-block;
-  width: 170px;
+  width: 160px;
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: content-box;
   border-radius: 4px;
   margin-right: 30px;
+
   background-image: url(..//images/svg/logo\ 3.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 94px;
+  cursor: pointer;
+}
+.icon-client4 {
+  display: inline-block;
+  width: 160px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-right: 30px;
+
+  background-image: url(..//images/svg/logo\ 4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+  cursor: pointer;
+}
+.icon-client5 {
+  display: inline-block;
+  width: 160px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-right: 30px;
+
+  background-image: url(..//images/svg/logo\ 5.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+  cursor: pointer;
+}
+.icon-client6 {
+  display: inline-block;
+  width: 160px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+
+  background-image: url(..//images/svg/logo\ 6.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+  cursor: pointer;
 }
 /*
 .icon-client {
