@@ -185,9 +185,9 @@ header {
   width: 0.625em;
 }
 .icon-mail:hover {
-  fill: #2196f3;
   cursor: pointer;
 }
+
 .icon-mail {
   margin-right: 10px;
 }
@@ -627,7 +627,15 @@ footer {
   color: var(--white-color-text);
   margin-bottom: 0;
 }
-
+.social-icom {
+  padding-top: 20px;
+  padding-bottom: 108px;
+  display: flex;
+}
+.icon {
+  width: 44px;
+  height: 44px;
+}
 /*portfolio html*/
 .portfolio-logo {
   font-family: Raleway;
