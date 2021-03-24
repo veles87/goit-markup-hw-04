@@ -647,8 +647,11 @@ footer {
   width: 44px;
   height: 44px;
   display: inline-flex;
+  margin-right: 10px;
 }
-
+.icon:hover {
+  fill: #2196f3;
+}
 /*portfolio html*/
 .portfolio-logo {
   font-family: Raleway;
