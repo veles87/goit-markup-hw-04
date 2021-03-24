@@ -612,8 +612,15 @@ footer {
 
   color: rgba(255, 255, 255, 0.6);
 }
+/*icon social*/
 .social-link {
-  margin-left: 516px;
+  position: absolute;
+  margin-top: 72px;
+
+  left: 516px;
+  top: 2749px;
+  margin: 0;
+  padding: 0;
 }
 .come-on {
   font-family: Roboto;
@@ -626,16 +633,22 @@ footer {
 
   color: var(--white-color-text);
   margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 45px;
 }
 .social-icom {
-  padding-top: 20px;
-  padding-bottom: 108px;
   display: flex;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 .icon {
   width: 44px;
   height: 44px;
+  display: inline-flex;
 }
+
 /*portfolio html*/
 .portfolio-logo {
   font-family: Raleway;
