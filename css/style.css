@@ -43,9 +43,11 @@ img {
   --buttos-hover-color: #188ce8;
   --our-backgraund-color: #f5f4fa;
   --portfolio-background-color: #e5e5e5;
+  --social-team-icon-color: #afb1b8;
+
   --card-set-gap: 30px;
   --card-shadow-hover: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    0px 1px 1px 2px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   --card-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
 }
 
@@ -435,6 +437,40 @@ h3 {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
+.ihor1 {
+  margin: 0;
+}
+.teams-icon {
+  display: inline-flex;
+
+  width: 44px;
+  height: 44px;
+}
+.teams-icon:hover {
+  border-radius: 50%;
+  background-color: var(--hover-color);
+  stroke: #f44336;
+  stroke-width: 3px;
+  stroke-opacity: 0.7;
+}
+/*team-icon*/
+.team-icon {
+  height: 44px;
+  width: 44px;
+
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  fill: var(--social-team-icon-color);
+  cursor: pointer;
+}
+.social-team {
+  padding: 0;
+  margin-bottom: 30px;
+  margin-top: 16px;
+}
 .position {
   padding-top: 94px;
   padding-bottom: 50px;
@@ -637,20 +673,37 @@ footer {
   padding-top: 50px;
   padding-left: 45px;
 }
-.social-icom {
+.social {
   display: flex;
   display: inline;
-  margin: 0;
-  padding: 0;
 }
-.icon {
+.social-icon-link {
+  display: inline-flex;
+
   width: 44px;
   height: 44px;
-  display: inline-flex;
-  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-.icon:hover {
-  fill: #2196f3;
+.twiter {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--hover-color);
+}
+.icon {
+  height: 44px;
+  width: 44px;
+
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  fill: var(--white-color-text);
+  cursor: pointer;
+}
+
+.social-icon-link:hover {
+  background-color: var(--hover-color);
 }
 /*portfolio html*/
 .portfolio-logo {
