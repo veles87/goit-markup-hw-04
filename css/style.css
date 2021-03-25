@@ -457,7 +457,8 @@ h3 {
   fill: var(--social-team-icon-color);
   cursor: pointer;
 }
-.team-icon:hover {
+.team-icon:hover,
+.team-icon:focus {
   border-radius: 50%;
   background-color: var(--hover-color);
   fill: var(--white-color-text);
