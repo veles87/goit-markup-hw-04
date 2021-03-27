@@ -182,24 +182,22 @@ header {
   fill: currentColor;
 }
 .icon-mail {
-  width: 1.3330078125em;
+  width: 16px;
+  height: 12px;
+  fill: var(--primary-text-color);
+  margin-right: 10px;
 }
 
 .icon-phone {
-  width: 0.625em;
+  width: 10px;
+  height: 16px;
+  fill: var(--primary-text-color);
+  margin-right: 10px;
 }
+
+.icon-phone:hover,
 .icon-mail:hover {
-  cursor: pointer;
-}
-
-.icon-mail {
-  margin-right: 10px;
-}
-.icon-phone {
-  margin-left: 50px;
-  margin-right: 10px;
-}
-.icon-phone:hover {
+  fill: var(--hover-color);
   cursor: pointer;
 }
 .contacts {
