@@ -474,106 +474,44 @@ h3 {
   margin: 0;
 }
 
-.client-icon {
-  width: 1200px;
-}
-.icon-client1 {
-  display: inline-block;
-  width: 160px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: content-box;
-  border-radius: 4px;
-
-  background-image: url(..//images/svg/logo\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 94px;
+.client-icons {
+  width: 1600px;
   padding: 0;
-  cursor: pointer;
-
-  margin-right: 30px;
+  margin: 0;
 }
-.icon-client2 {
+.fl {
   display: inline-block;
-  width: 160px;
+}
+.icon-client {
+  display: flex;
+  display: inline-block;
+  width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: content-box;
   border-radius: 4px;
-
-  background-image: url(..//images/svg/logo\ 2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 94px;
-  padding: 0;
+
   cursor: pointer;
 
   margin-right: 30px;
 }
-.icon-client3 {
+.client {
+  width: 79px;
+  height: 42px;
   display: inline-block;
-  width: 160px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: content-box;
-  border-radius: 4px;
-
-  background-image: url(..//images/svg/logo\ 3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 94px;
-  cursor: pointer;
-
-  margin-right: 30px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 50px;
+  fill: var(--social-team-icon-color);
 }
-.icon-client4 {
-  display: inline-block;
-  width: 160px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: content-box;
-  border-radius: 4px;
-
-  background-image: url(..//images/svg/logo\ 4.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 94px;
-  cursor: pointer;
-
-  margin-right: 30px;
+.icon-client:hover,
+.fl:hover,
+.client:hover {
+  fill: var(--hover-color);
+  color: var(--hover-color);
 }
-.icon-client5 {
-  display: inline-block;
-  width: 160px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: content-box;
-  border-radius: 4px;
-
-  background-image: url(..//images/svg/logo\ 5.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 94px;
-  cursor: pointer;
-
-  margin-right: 30px;
-}
-.icon-client6 {
-  display: inline-block;
-  width: 160px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: content-box;
-  border-radius: 4px;
-
-  background-image: url(..//images/svg/logo\ 6.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 94px;
-  cursor: pointer;
-}
-
 /*
 .icon-client {
   height: 90px;
