@@ -480,6 +480,9 @@ h3 {
 .fl {
   display: inline-block;
 }
+.lf {
+  margin-left: 75px;
+}
 .icon-client {
   display: flex;
   display: inline-block;
