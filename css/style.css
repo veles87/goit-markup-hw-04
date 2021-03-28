@@ -187,12 +187,9 @@ header {
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
-.icon-phone:hover,
-.icon-phone:focus,
-.icon-mail:hover,
-.icon-mail:focus {
-  fill: var(--hover-color);
-  cursor: pointer;
+.icon-mail,
+.icon-phone {
+  align-items: center;
 }
 .contacts {
   display: flex;
@@ -213,12 +210,18 @@ header {
 
   color: var(--primary-text-color);
 }
-
 .saite-contacts:hover,
 .saite-contacts:focus {
   color: var(--hover-color);
 }
-
+.saite-contacts:hover .icon-phone,
+.saite-contacts:focus .icon-phone {
+  stroke: var(--hover-color);
+}
+.saite-contacts:hover .icon-mail,
+.saite-contacts:focus .icon-mail {
+  stroke: var(--hover-color);
+}
 /* banner*/
 .banner {
   height: 600px;
