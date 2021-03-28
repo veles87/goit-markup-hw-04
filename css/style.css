@@ -173,14 +173,7 @@ header {
   color: var(--hover-color);
 }
 /*icon header*/
-.iconss {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
+
 .icon-mail {
   width: 16px;
   height: 12px;
@@ -194,9 +187,10 @@ header {
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
-
 .icon-phone:hover,
-.icon-mail:hover {
+.icon-phone:focus,
+.icon-mail:hover,
+.icon-mail:focus {
   fill: var(--hover-color);
   cursor: pointer;
 }
@@ -220,7 +214,8 @@ header {
   color: var(--primary-text-color);
 }
 
-.saite-contacts:hover {
+.saite-contacts:hover,
+.saite-contacts:focus {
   color: var(--hover-color);
 }
 
@@ -407,6 +402,7 @@ h3 {
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-color);
+  margin-top: 30px;
 }
 
 .banners {
@@ -440,6 +436,9 @@ h3 {
 .ihor1 {
   margin: 0;
 }
+.teem {
+  margin-top: 30px;
+}
 .teams-icon {
   height: 44px;
   width: 44px;
@@ -459,8 +458,6 @@ h3 {
 }
 .team-icon:hover,
 .team-icon:focus {
-  border-radius: 50%;
-  background-color: var(--hover-color);
   fill: var(--white-color-text);
 }
 .social-team {
@@ -507,12 +504,7 @@ h3 {
   margin-left: 50px;
   fill: var(--social-team-icon-color);
 }
-.icon-client:hover,
-.fl:hover,
-.client:hover {
-  fill: var(--hover-color);
-  color: var(--hover-color);
-}
+
 /*
 .icon-client {
   height: 90px;
@@ -607,8 +599,7 @@ footer {
   color: var(--white-color-text);
   margin-bottom: 0;
   padding-bottom: 20px;
-  padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 .social {
   display: flex;
@@ -622,12 +613,7 @@ footer {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.twiter {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--hover-color);
-}
+
 .icon {
   height: 44px;
   width: 44px;
@@ -639,7 +625,8 @@ footer {
   cursor: pointer;
 }
 
-.social-icon-link:hover {
+.social-icon-link:hover,
+.social-icon-link:focus {
   background-color: var(--hover-color);
 }
 /*portfolio html*/
