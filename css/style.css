@@ -481,7 +481,7 @@ h3 {
   display: inline-block;
 }
 .lf {
-  display: flexbox;
+  display: table;
   justify-items: center;
   align-items: center;
   padding-bottom: 94px;
@@ -657,6 +657,9 @@ footer {
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--hover-color);
+}
+.rs {
+  padding-top: 9px;
 }
 /*portfolio html*/
 .portfolio-logo {
