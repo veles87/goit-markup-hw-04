@@ -478,8 +478,14 @@ h3 {
   display: inline-block;
 }
 .lf {
-  margin-left: 115px;
-  margin-bottom: 94px;
+  display: flexbox;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 94px;
+  padding-left: 120px;
+  padding-right: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .icon-client {
   display: flex;
@@ -494,6 +500,21 @@ h3 {
 
   margin-right: 30px;
 }
+.icon-clients {
+  display: flex;
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: content-box;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+.clientu {
+  padding: 0;
+  margin-right: 0;
+}
 .client {
   width: 79px;
   height: 42px;
@@ -504,7 +525,12 @@ h3 {
   margin-left: 50px;
   fill: var(--social-team-icon-color);
 }
-
+.client:hover,
+.client:focus,
+.link:hover,
+.link:focus {
+  fill: var(--hover-color);
+}
 /*
 .icon-client {
   height: 90px;
