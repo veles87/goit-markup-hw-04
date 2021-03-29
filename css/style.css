@@ -485,8 +485,7 @@ h3 {
   justify-items: center;
   align-items: center;
   padding-bottom: 94px;
-  padding-left: 120px;
-  padding-right: 100px;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -529,9 +528,19 @@ h3 {
   fill: var(--social-team-icon-color);
 }
 .client:hover,
-.client:focus,
-.link:hover,
-.link:focus {
+.client:focus {
+  fill: var(--hover-color);
+}
+.hh {
+  width: 1200px;
+  display: contents;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.icon-client:hover,
+.icon-client:focus {
   fill: var(--hover-color);
 }
 /*
