@@ -46,8 +46,8 @@ img {
   --social-team-icon-color: #afb1b8;
 
   --card-set-gap: 30px;
-  --card-shadow-hover: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 2px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --card-shadow-hover: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   --card-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
 }
 
@@ -133,7 +133,15 @@ header {
 .logotip:hover {
   color: var(--hover-color);
 }
-
+.link-current,
+.link:hover,
+.link:focus,
+.contacts:focus,
+.contacts:hover,
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--special-text-color);
+}
 /*main-nav*/
 .main-nav {
   display: flex;
@@ -356,7 +364,7 @@ header {
 /*what-we-do*/
 
 .what-we-do {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .block-title {
@@ -391,9 +399,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--title-color);
 
-  margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -414,7 +420,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
-  padding-bottom: 94px;
 }
 
 .our-team .team + .team + .team {
@@ -457,8 +462,12 @@ h3 {
   fill: var(--social-team-icon-color);
   cursor: pointer;
 }
-.team-icon:hover,
-.team-icon:focus {
+.social-icon-link:hover,
+.social-icon-link:focus {
+  fill: var(--white-color-text);
+}
+.social-icon-link:hover .team-icon,
+.social-icon-link:focus .team-icon {
   fill: var(--white-color-text);
 }
 .social-team {
@@ -469,20 +478,19 @@ h3 {
 
 /*clients icon*/
 .position {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  margin: 0;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .grid {
-  display: table;
+  display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 120px;
+  margin-right: 120px;
   justify-items: center;
   align-items: center;
-  padding-bottom: 94px;
+
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
 }
 
 .grid-item.fl.lf.grid {
@@ -507,12 +515,20 @@ h3 {
 .hh {
   display: contents;
 }
-
+.lf {
+  padding-left: 0;
+}
 .fl {
   width: 170px;
   height: 90px;
-  display: inline-block;
+  display: inline-grid;
   margin-right: 30px;
+}
+
+.fls {
+  width: 170px;
+  height: 90px;
+  display: inline-grid;
 }
 .icon-client:hover,
 .icon-client:focus {
@@ -659,6 +675,105 @@ footer {
   outline: none;
   border-radius: 50%;
 }
+/*new footer*/
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.join {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color-text);
+  margin-bottom: 20px;
+}
+
+.our-contacts {
+  display: flex;
+}
+
+.card-footer {
+  flex-basis: calc((50% - 45px) / 2);
+}
+.social-networks {
+  margin-left: 70px;
+  padding-top: 15px;
+}
+
+.social-networks-list {
+  display: inline-flex;
+}
+
+.networks-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.networks-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.networks-list-link:hover,
+.networks-list-link:focus {
+  background-color: var(--hover-color);
+}
+
+.network-icon {
+  fill: var(--white-color-text);
+}
+
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--white-color-text);
+}
+
+.address-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  padding-top: 9px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-current,
+.link:hover,
+.link:focus,
+.contacts:focus,
+.contacts:hover,
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--hover-color);
+}
+
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
 
 /*portfolio html*/
 .portfolio-logo {
@@ -734,7 +849,7 @@ footer {
   padding-left: 30px;
 }
 /*conteiner -main*/
-.conteiner-main {
+.conteiner {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
@@ -805,11 +920,17 @@ footer {
   border-radius: 4px;
   overflow: hidden;
 }
-.card:hover,
-.card:focus {
+
+.portfolios-link:hover,
+.portfolios-link:focus {
   box-shadow: var(--card-shadow-hover);
   border-radius: 4px;
+  color: var(--hover-color);
 }
+.portfolios-link {
+  cursor: pointer;
+}
+
 .card-content {
   padding: 20px 24px;
 }
